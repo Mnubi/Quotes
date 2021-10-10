@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShareComponent } from './share/share.component';
 import { QuotesComponent } from './quotes/quotes.component';
+import { AuthorComponent } from './author/author.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShareComponent,
-    QuotesComponent
+    QuotesComponent,
+    AuthorComponent
   ],
   imports: [
     BrowserModule,
