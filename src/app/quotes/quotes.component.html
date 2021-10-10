@@ -9,9 +9,12 @@
     </div>
 </div>
 <div class="row2">
-    <h4>Rodger Philip</h4>
-    <h5>student</h5>
-    <p>Better late than never</p>
-    <a href=""></a>
+    <h2>My favorites Quotes</h2>
+    <div *ngFor='let proverbs of quotes; let i = index'>
+        <h4>{{proverbs.name}}</h4>
+        <h5>{{proverbs.title}}</h5>
+        <p>{{proverbs.saying}}</p>
+        <a href=""></a>
+    </div>
 </div>
 
