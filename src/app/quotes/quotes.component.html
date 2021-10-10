@@ -12,9 +12,10 @@
     <h2>My favorites Quotes</h2>
     <div *ngFor='let proverbs of quotes; let i = index'>
         <h4>{{proverbs.name}}</h4>
-        <h5>{{proverbs.title}}</h5>
+        <h6>proffesion: {{proverbs.title}}</h6>
         <p>{{proverbs.saying}}</p>
-        <a href=""></a>
+        <a href="" class="btn btn-success btn-sm btn-block">show author</a>
+        <hr>
     </div>
 </div>
 
