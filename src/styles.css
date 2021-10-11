@@ -4,6 +4,11 @@
 body{
     background-color: #D3D3D3;
 }
+
+.head{
+    align-items: center;
+}
+
 .row2{
     margin: 0px;
 }
