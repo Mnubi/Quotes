@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    background-color: #D3D3D3;
+}
+.row2{
+    margin: 0px;
+}
+
+.row2 p{
+    color: rgb(82, 75, 75);
+    text-decoration-style: wavy;
+}

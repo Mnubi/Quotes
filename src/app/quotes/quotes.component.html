@@ -4,7 +4,6 @@
         <div>
             <h4>why motivtaional quotes are important</h4>
             <p>There is one consistent factor no matter how young or old you are, your successes and struggles, where you are from, or what you are facing right now, motivational quotes will spur you on, giving you the much needed impetus to face whatever life throws at you. Quotes are priceless sources of wisdom and guidance when most needed. During times of trials, struggles and tribulations, they definitely motivate. Failure and success are never final in life; we can always do better, improve or even turn situations around. Inspirational quotes are not only timeless but are often timely in many situations. This is indeed the reason why motivational quotes are important for everyone!</p>
-            <a href=""></a>
         </div>
     </div>
 </div>
@@ -13,8 +12,11 @@
     <div *ngFor='let proverbs of quotes; let i = index'>
         <h4>{{proverbs.name}}</h4>
         <h6>proffesion: {{proverbs.title}}</h6>
+
+        <app-author *ngIf="proverbs.showauthor" [proverbs]='proverbs'></app-author>
         <p>{{proverbs.saying}}</p>
-        <a href="" class="btn btn-success btn-sm btn-block">show author</a>
+        <a (click)='showauthor(i)' class="btn btn-success btn-sm btn-block">show author</a>
+
         <hr>
     </div>
 </div>
