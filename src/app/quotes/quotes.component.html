@@ -10,11 +10,10 @@
 <div class="row2">
     <h2>My favorites Quotes</h2>
     <div *ngFor='let proverbs of quotes; let i = index'>
-        <h4>{{proverbs.name}}</h4>
-        <h6>proffesion: {{proverbs.title}}</h6>
-
+        
         <app-author *ngIf="proverbs.showauthor" [proverbs]='proverbs'></app-author>
         <p>{{proverbs.saying}}</p>
+        <!-- <button class="btn btn-danger btn-sm">DELETE</button> -->
         <a (click)='showauthor(i)' class="btn btn-success btn-sm btn-block">show author</a>
 
         <hr>
