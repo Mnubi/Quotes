@@ -15,8 +15,8 @@
         <app-author *ngIf="proverbs.showauthor" [proverbs]='proverbs'></app-author>
         <p>{{proverbs.saying}}</p>
         <!-- <button class="btn btn-danger btn-sm">DELETE</button> -->
-        <a (click)='showauthor(i)' class="btn btn-success btn-sm btn-block">show author</a>
-
+        <a (click)='showauthor(i)' class="btn btn-primary btn-sm btn-block">show author</a><br>
+        <button type="button" id="likes" class="btn btn-success">Success</button>  <button type="button" id="likes" class="btn btn-danger">Dislike</button><br>
         <hr>
     </div>
 </div>
