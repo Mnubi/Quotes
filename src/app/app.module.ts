@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ShareComponent } from './share/share.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { AuthorComponent } from './author/author.component';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShareComponent,
     QuotesComponent,
-    AuthorComponent
+    AuthorComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
