@@ -1,15 +1,23 @@
 <div class="row">
-    <div class="col-md-18">
-        <h1 class="head">Quotes</h1><br>
+    <div class="col-md-10">
+        <h1 id="head">Quotes</h1><br>
         <div>
             <h4>why motivtaional quotes are important</h4>
             <p>There is one consistent factor no matter how young or old you are, your successes and struggles, where you are from, or what you are facing right now, motivational quotes will spur you on, giving you the much needed impetus to face whatever life throws at you. Quotes are priceless sources of wisdom and guidance when most needed. During times of trials, struggles and tribulations, they definitely motivate. Failure and success are never final in life; we can always do better, improve or even turn situations around. Inspirational quotes are not only timeless but are often timely in many situations. This is indeed the reason why motivational quotes are important for everyone!</p>
         </div>
     </div>
 </div>
+
+<div class="row3">
+    <app-share (addQuote)="addAQuote
+    ($event)"></app-share>
+ </div>
+
 <div class="row2"><br>
-    <h2>My favorites Quotes</h2>
+    <h2 id="head"><em>My favorites Quotes</em></h2>
+    <hr>
     <br>
+    
     <div *ngFor='let proverbs of quotes; let i = index'>
         
         <app-author *ngIf="proverbs.showauthor" [proverbs]='proverbs'></app-author>

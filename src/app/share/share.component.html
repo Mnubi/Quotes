@@ -1,11 +1,12 @@
 <br><br><h2>Add a memorable Quote</h2>
 <div>
-    <form action="">
+    <form (ngSubmit)="postQuote()"#myForm="ngForm" >
         <label for="">Name:</label><br>
-        <input class="form-control" type="text" placeholder="Your name" name="name" autocoplete="off"><br>
+        <input class="form-control" type="text" placeholder="Your name" name="name" [(ngModel)]="newQuote.name" autocoplete="off"><br>
         <label for="">Occupation:</label><br>
-        <input class="form-control" type="text" placeholder="Your job" name="title" autocoplete="off"><br>
+        <input class="form-control" type="text" placeholder="Your job" name="title" [(ngModel)]="newQuote.title" autocoplete="off"><br>
         <label for="">Quotes:</label><br>
-        <textarea class="form-control" name="quote" placeholder="write your quote here" cols="10" rows="3"></textarea><br>
+        <textarea class="form-control" name="quote" placeholder="write your quote here" [(ngModel)]="newQuote.saying" cols="10" rows="3"></textarea><br>
         <button type="submit" class="btn btn-primary">POST</button></form>
 </div>
+

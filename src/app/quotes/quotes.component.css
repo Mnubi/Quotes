@@ -3,3 +3,18 @@
     margin-left: 2px;
     padding: 0.5rm;
 }
+
+#head{
+    color: blue;
+    text-align: center;
+}
+.row2{
+    padding-top: 40px;
+    background-color: aqua;
+    margin: 0px;
+    padding: 25px;
+}
+
+row3{
+    background-color: azure;
+}
