@@ -29,4 +29,4 @@ If you need any assistance or any upgrade communication channel is open, please 
 
 ## License
 * *MIT License:*
-* Copyright (c) 2020 **Rodger Kamau**
+* Copyright (c) 2021 **Rodger Kamau**
