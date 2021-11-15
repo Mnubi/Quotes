@@ -1,8 +1,8 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
-[Rodger Kamau](https://github.com/Mnubi/quotes.git)
-#### {}, {November, 13 2021}
+[](https://github.com/Mnubi/quotes.git)
+#### {Rodger Kamau}, {November, 13 2021}
 
 ## Description
 This angular web application will allow users to see quotes from all over the world, their authors and the day it was posted. It will also allow users yto add more posts if they need to.
